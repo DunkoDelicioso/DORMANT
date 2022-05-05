@@ -1,0 +1,74 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.webgl
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    outline: none;
+    z-index: -1;
+
+}
+
+
+
+#container {
+    z-index: 100;
+    position: relative;
+    padding: 50px;
+    font-family: 'sizhan', sans-serif;
+
+  }
+
+  #container canvas, #overlay {
+    /* font-family: 'Mea Culpa', cursive; */
+
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+ 
+    /*
+      Introduced in IE 10.
+      See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+    */
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 4vh;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    overflow: hidden;
+  }
+
+  canvas {
+    border: 1px solid white;
+  }
+
+  .row{
+    padding-top: 20%;
+    padding-left: 3%;
+    user-select: none;
+    max-height: 58.8%;
+    overflow: scroll;
+    overflow: hidden;
+  }
+
+  .column{
+    user-select: none;
+    font-family: 'sizhan', sans-serif;
+    color: white;
+    float: left;
+    width: 60%;
+    border: solid 1px white;
+    padding-bottom: 2px;
+    overflow: hidden;
+  }
+
+
+
+
+/*# sourceMappingURL=main.css.map*/
